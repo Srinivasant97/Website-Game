@@ -1,0 +1,120 @@
+
+.container-1 , .container-2, .container-3,.container-4,.container-5 {
+	border : 2px solid black;
+	text-align: center;
+	width: 75%;
+	margin: auto;
+
+
+}
+
+.flex-box-container-1,.blackjack-row1 ,.blackjack-row3{
+	display: flex;
+	border: 1px solid black;
+	padding: 10px;
+	flex-wrap: wrap;
+	flex-direction: row;	
+	justify-content: space-around;	
+}
+
+.flex-box-container-1 div {
+	display:flex;
+	padding:10px;
+	border: 1px solid black;
+	align-items : center;
+	border-radius: 5px;
+}
+
+.red,.Danger	{
+	color: white;
+	background-color: red;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid red;
+}	
+
+.blue,.Primary{
+	color: white;
+	background-color: blue;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid blue;
+}	
+
+.Green,.Success{
+	color: white;
+	background-color: green;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid green;
+}	
+
+.flex-box-container-2 ,.Game,.ChangeColor{
+	padding:10px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	border:2px solid black;
+
+}
+
+.flex-box-container-2 img{
+	padding: 10px;
+	box-shadow: 0px 10px 50px grey	;
+}
+
+.Game img:hover{
+	box-shadow: 10px 10px 10px 0px #ADD8E6;
+}
+
+.Warning{
+	color: black;
+	background-color: yellow;
+	border-radius: 10px;
+	padding: 10px;
+	border: 1px solid yellow;
+}	
+
+.blackjack-row1,.blackjack-row2{
+	background:url(https://images.casumo.com/2018/02/relax_table_games_blackjack_background.jpg);
+	color: white;
+	border: 1px solid white;
+
+	
+}
+.blackjack-row1 img{
+	width: 20%;
+	padding: 10px;
+}
+
+.blackjack-row1{
+	min-height: 400px;
+}
+
+.blackjack-row1 div{
+
+	border: 1px solid white;
+	padding: 10px;
+	flex: 1;
+	text-align: center;
+	
+}
+
+
+
+.blackjack-row2 button{
+	padding: 10px;
+}
+.blackjack-row2 {
+	display: flex;
+
+	border: 1px solid black;
+	padding: 10px;
+	justify-content: center;
+
+}
+
+table , th, td{
+	padding: 5px;
+	border:1px solid black;
+}

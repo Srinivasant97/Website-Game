@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Age in Days</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container-1">
+		<h2>Challenge 1: Your Age in Days</h2>
+		<div class="flex-box-container-1">
+			<div>
+				<button class="blue" onclick="ageindays()">Click me</button>
+			</div>
+
+			<div>
+				<button class="red" onclick="reset()">reset</button>
+			</div>
+		</div>
+		<div class="flex-box-container-1">
+			<div id = "flex-box-result"></div>
+			
+		</div>
+	</div>
+
+	<div class="container-2">
+		<h2>Challenge 2: Cat Generator</h2>
+		<button class ="Green" onclick="generatecat()">Generate Cat</button>
+
+		<div class="flex-box-container-2" id="flex-cat">
+			
+		</div>
+		
+	</div>
+
+	<div class="container-3">
+		<h2>Challenge 3: Rock, Paper, Scissors</h2>
+		<div class="Game" id="Share" >
+			<img width = "200" id="Rock" onclick="game(this)" src="https://i.redd.it/brxxveprs2e01.png">
+			<img width ="250" id="Paper" onclick="game(this)" src="https://cf.ltkcdn.net/origami/images/std/61394-400x300-Yellow_paper.jpg">
+			<img width ="200" id="Scissors" onclick="game(this)" src="https://media.knivesandtools.com/Exact675x450/58956/vt7.6376$01-victorinox-keukenschaar-vt7.6376-01.jpg">
+		</div>
+	</div>
+
+	<div class="container-4">
+		<h2>Challenge 4: Change the Color for all the buttons</h2>
+		<div class="ChangeColor">
+			<form action="">
+				<select name="backdrop" id ="background" onchange="buttoncolorchange(this)">
+					<option value="random">Random</option>
+					<option value="red">Red</option>
+					<option value="green">Green</option>
+					<option value="reset">Reset</option>
+				</select>
+			</form>
+			<button class="Primary">Wee!</button>
+			<button class="Danger">Yahoo!</button>
+			<button class="Warning">Google!</button>
+			<button class="Success">Facebook!</button>
+		</div>
+		
+	</div>
+	<div class="container-5">
+		<h2>Challenge 5: Blackjack</h2>
+		<h3><span id="blackjack-result">Let's Play</span></h3>
+
+		<div class="blackjack-row1">
+			<div id="your-box">
+				<h2>You: <span id="your-boxresult">0</span></h2>
+				
+			</div>
+			<div id="dealer-box">
+				<h2>Dealer: <span id="dealer-boxresult">0</span></h2>
+				
+			</div>
+				
+		</div>
+		<div class="blackjack-row2">
+			<button class="Primary" id="blackjack-hit">Hit</button>
+			<button class="Warning" id="blackjack-stand">Stand</button>
+			<button class="Danger" id="blackjack-deal">Deal</button>
+
+			
+		</div>
+		<div class="blackjack-row3">
+			<table>
+				<tr>
+					<th>Wins</th>
+					<th>Losses</th>
+					<th>Draw</th>
+				</tr>
+
+				<tr>
+					<td><span id="wins">0</span></td>
+					<td><span id="losses">0</span></td>
+					<td><span id="draw">0</span></td>
+				</tr>
+			</table>
+			
+		</div>
+	</div>
+	<script src="javascript.js"></script>
+</body>
+</html>
